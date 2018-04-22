@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+    <div id="intro1"  class="title">
+      <h1>Let's see some facts about Airports and Airlines</h1>
+      <p>Have you ever wonder how many flights we have at
+        each airline, or how long each airline are likely to delays?</p>
+      <p>Let's start from the overall flight number for each airports in USA </p>
+    </div>
+    <div id="intro2"  class="title">
+      <h1>How About the Aggregrated Delayed Minutes per Airport?</h1>
+      <p>This slide shows the aggregrated delayed minutes for each airport in USA </p>
+      <p>Emm, it seems that the distribution of aggregrated delayed minutes is similar
+        to overall flight number for each airports</p>
+    </div>
+    <div id="intro3"  class="title">
+      <h1>The most delay-risky airports</h1>
+      <p>It seem that the more flight number a airport has, the longer delayed time would be.</p>
+      <p>Which is quite reasonable. So let's map a new feature called delayrate, which is the
+      aggregrated delay minutes divided by flight numbers.</p>
+    </div>
+    <div id="intro4"  class="title">
+      <h1>Flight Number from Pennsylvania</h1>
+      <p>Take a closer look at Pennsylvania. This slide
+        shows the flight number and details of each flight line in Pennsylvania.</p>
+    </div>
+    <div id="intro5"  class="title">
+      <h1>Delayed Minutes of Each Airline from Pennsylvania</h1>
+      <p>This slide shows the Delayed minutes of each flight line in Pennsylvania.</p>
+    </div>
+
+
+      <button class="previous">Previous</button>
+      <button class="next">Next</button>
+
+  </div>
+
+    </div>
+    <!-- Map -->
+    <div id="map" class="map"></div>
+    <!-- Legend -->
+    <div class="legend">
+    </div>
+
+
+    <!-- Javascript Imports -->
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/underscore.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
